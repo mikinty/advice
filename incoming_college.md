@@ -66,6 +66,8 @@ Some essential skills you may not learn in class
 * Training a real ML model (not just recognizing handwritten digits)
 * Prompt engineering with LLMs, embeddings + building vector DB
 * Cryptography. Yea sure crypto, but what I really mean is symmetric/asymmetric encryption, e.g. RSA, AES. Common attacks like DDOS, packet spoofing. Also basic "hacking" like reading through client code of websites (you'll be surprised how bad companies are at this), finding API keys, abusing endpoints that are not auth protected. There's a big rabbit hole you can go down in like professional capture the flag and computer forensics
+* Code style, documentation
+* Version control, e.g. `git`: Easiest way to learn this is to force yourself to use it for classes. It will help you become a better coder
 
 Nice to haves
 
