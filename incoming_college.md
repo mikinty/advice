@@ -44,19 +44,29 @@ There is no simple formula here, take classes that challenge you, but you still 
 
 If you are a CS major, besides algorithms and data structures, I do not consider someone a serious computer scientist unless they have also taken
 
+* Introduction to Computer Systems: Learn this before OS
+  * [Bryant's Textbook](https://csapp.cs.cmu.edu/): This is the classic textbook for computer systems. 
 * Operating Systems (not some baby OS class, look up the CMU one where you build an entire one from scratch)
+  * A cool part about OS is you find out at lower level implementations, you have the freedom to pretty much design anything, anyway you want it  
 * Compilers (ideally one where you have to create a useful language from scratch)
+  * [Crafting Interpreters](https://craftinginterpreters.com/): A hands-on amazingly written book where you get to write a compiler alongside the author
+  * [Dragon Textbook](https://en.wikipedia.org/wiki/Compilers:_Principles,_Techniques,_and_Tools): The classic compilers textbook
 * Databases
 * Distributed Systems (teaches you about how many real-world systems work)
+  * [Tannenbaum's book](https://www.distributed-systems.net/index.php/books/ds4/): Free and also very well-written
 
 And yes, these are usually hard classes, but that's the point. There is also a sort of "divide" in CS between the theorists vs the practical people. 
 
-* Theory: Algorithms, probability theory, programming languages, compilers, functional
-* Practical: Systems, OS, distributed
+* Theory: Algorithms, probability theory, programming languages, compilers, functional programming
+* Practical: Systems, OS, Distributed
 
 Some essential skills
 
-* Race conditions: You have no idea how much code exists in real life
+* Race conditions: You have no idea how much code exists in real life that 
+* Code safety: Null pointers, code that leaks memory or accesses memory in weird spots
+* Scalability: Can your code work with large inputs?
+* Maintainability of code: How do you make your code modular, reusable, readable in large code bases?
+* Debugging code: print debugging, using gdb, breakpoints, writing panic functions
 
 Some essential skills you may not learn in class
 
@@ -82,14 +92,17 @@ Nice to haves
 If you an ECE major, the category is a lot more broad, because you can focus more on anywhere of the hardware stack. 
 But broadly
 
-* Analog: op amps, transistors, layout, fab
-* Digital: digital logic, FPGA
-* Computer Architecture: RISC-V pipeline
+* Analog: op amps, transistors, IC design, layout, fab
+* Digital: digital logic, FPGA programming, verification
+* Computer Architecture: RISC-V pipeline, instruction sets
 * Embedded: coding on bare metal
+  * You can buy a [Raspberry Pi](https://www.raspberrypi.com/), and then buy some random embedded devices and see if you can make them work
+
+Once you go above embedded you are entering OS land. Welcome to the CS major stack.
 
 Some essential skills you should have
 
-* How to read a data sheet
+* How to read a data sheet, and figure out how to use random electronic devices
 * How to debug a circuit
 * How to use a Raspberry Pi and Arduino
 * How to use a transistor in a circuit
@@ -97,3 +110,4 @@ Some essential skills you should have
 Nice to haves
 
 * Know how to wire a house
+* Basic computer repairs, such as replacing a laptop battery, adding more RAM to your computer (not downloading)
