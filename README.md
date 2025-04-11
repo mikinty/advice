@@ -12,3 +12,4 @@ Naturally, as I went through a technical major and ended up at a big tech job, m
 
 * [Incoming college students and what courses to take](incoming_college.md)
 * [Doing well at work](work.md)
+* [Saving/Investing](https://github.com/mikinty/math-of-finance)
